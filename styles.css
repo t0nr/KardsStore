@@ -76,7 +76,7 @@ p{
 /*main screen*/
 
 #main {
-	background-image: url("../img/hand.png"); 
+	background-image: url("/img/hand.png"); 
 	height: 90vh;
 	width: 100%;
 	background-size: cover;
