@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+	<title>Kards Store</title>
+	<link href="styles.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<!--Header/Top Section-->
+	<section id="topheader">
+		<a>
+			<img class="logo" src="img/kards.png">
+		</a>
+		<div>
+			<ul id ="bar">
+				<li><a href="index.html">Home</a></li>
+				<li><a class="active" href="shop.html">Shop</a></li>
+				<a href="#" id="close"><i class="far fa-times"></i></a>
+			</ul>
+		</div>
+		<div id="mobile">
+			<button id="sidebar"></button>
+		</div>
+	</section>
+
+	<!--Shop Header-->
+	<section id="shopheader">
+		<p class="new">
+            #newcustomer
+        </p>
+        <p class="get">
+            Get 20% your first order of $20 or more!
+        </p>
+	</section>
+
+	<!--Cart Section-->
+	<div class="cartcontainer">
+		<header>
+			<div class="shopping">
+				<img src="img/cart.png">
+				<span class="quantity">0</span>
+			</div>
+		</header>
+	</div>
+	<div class="shopcontainer">
+		<div class="list"></div>
+	</div>
+	<div class="card">
+		<h1>Card</h1>
+		<ul class="listCard"></ul>
+		<div class="checkout">
+			<div class="total">0</div>
+			<div class="closeShopping">Close</div>
+		</div>
+	</div>
+
+	<!--Signup for emails-->
+	<section id="newsletter">
+		<div class="newstext">
+			<p class="signup">Sign Up for Newsletters</p>
+			<p class="getemail">Get Emails about latest items and <span>special offers</span></p>
+		</div>
+		<div class="form">
+			<input type="text" placeholder="Your email address">
+			<button>
+				Sign Up
+			</button>
+		</div>
+	</section>
+
+	<!--footer-->
+	<footer>
+		<div class="col">
+			<img class="bottomlogo" src="img/kards.png">
+			<p class="foothead">Contact</p>
+			<p><strong>Address: </strong>10 Maplewood Drive, Livingston, New Jersey</p>
+			<p><strong>Phone: </strong>973-533-8358</p>
+			<p><strong>Hours: </strong>10:00am - 6:00pm, Mon - Fri</p>
+		</div>
+
+		<div class="col install">
+			<p class="foothead">Install App</p>
+			<p>App Store or Google Play</p>
+			<div class="row">
+				<img src="img/app.jpg">
+				<img src="img/play.jpg">
+			</div>
+			<p>Secured Payment Method</p>
+			<img src="img/pay.png">
+		</div>
+	</footer>
+<script src="scripts.js"></script>
+</body>
